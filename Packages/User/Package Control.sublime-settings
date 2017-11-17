@@ -1,0 +1,49 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"AdvancedNewFile",
+		"All Autocomplete",
+		"ApacheConf.tmLanguage",
+		"Babel",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"CSS Format",
+		"DocBlockr",
+		"Dockerfile Syntax Highlighting",
+		"DotENV",
+		"Emmet",
+		"ExpandRegion",
+		"GitGutter",
+		"INI",
+		"JavaScript Completions",
+		"JavaScriptNext - ES6 Syntax",
+		"Kconfig Syntax Highlight",
+		"LESS",
+		"nginx",
+		"Package Control",
+		"PackageResourceViewer",
+		"PHP Companion",
+		"PHP CS Fixer",
+		"PlainTasks",
+		"Predawn",
+		"Sass",
+		"SnippetMaker",
+		"SublimeLinter",
+		"SublimeLinter-html-tidy",
+		"SublimeLinter-jshint",
+		"SublimeLinter-php",
+		"SublimeLinter-phpcs",
+		"Themes Menu Switcher",
+		"TodoReview",
+		"Twig",
+		"Vue Syntax Highlight"
+	],
+	"repositories":
+	[
+	]
+}

@@ -1,0 +1,40 @@
+[
+ { "keys": ["ctrl+w"], "command": "close_file" },
+ { "keys": ["ctrl+d"], "command": "duplicate_line" },
+ { "keys": ["ctrl+d"], "command": "plain_tasks_complete","context": [{ "key": "selector", "operator": "equal", "operand": "text.todo" }] },
+ { "keys": ["ctrl+shift+d"], "command": "find_under_expand" },
+ { "keys": ["ctrl+k", "ctrl+shift+d"], "command": "find_under_expand_skip" },
+ { "keys": ["ctrl+t"], "command": "expand_region"},
+ { "keys": ["ctrl+shift+o"], "command": "prompt_add_folder"},
+ { "keys": ["ctrl+shift+t"], "command": "reopen_last_file"},
+ // { "keys": ["ctrl+shift+r"], "command": "open_terminal"}, // use guake tilda ~ instead
+ { "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace"},
+ { "keys": ["ctrl+alt+r"], "command": "advanced_new_file_move"},
+ { "keys": ["ctrl+alt+n"], "command": "advanced_new_file_new"},
+ { "keys": ["ctrl+tab"], "command": "indent" },
+ { "keys": ["shift+tab"], "command": "unindent" },
+ { "keys": ["ctrl+alt+insert"], "command": "toggle_overwrite" },
+ { "keys": [")"], "command": "insert", "args": {"characters": ")"} },
+ { "keys": ["}"], "command": "insert", "args": {"characters": "}"} },
+
+ { "keys": ["f5"], "command": "refresh_folder_list" },
+
+ { "keys": ["alt+backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+
+ { "keys": ["ctrl+alt+a"], "command": "alignment" },
+ // php companion keys
+ // { "keys": ["ctrl+i"], "command": "expand_fqcn" }
+ // { "keys": ["shift+f6"], "command": "expand_fqcn", "args": {"leading_separator": true} },
+ { "keys": ["ctrl+i"], "command": "find_use" },
+  // { "keys": ["f4"], "command": "import_namespace" },
+ // { "keys": ["f3"], "command": "implement" },
+ // { "keys": ["shift+f12"], "command": "goto_definition_scope" },
+ // { "keys": ["f7"], "command": "insert_php_constructor_property" },
+ // { "keys": ["f2"], "command": "reindent", "args": {"single_line": false}}
+ // { "keys": ["tab"], "command": "insert", "args": {"characters": "\t"}, "context":
+ // 	[
+ // 		{ "key": "auto_complete_visible" },
+ // 		{ "key": "setting.tab_completion", "operator": "equal", "operand": false }
+ // 	]
+ // },
+]
