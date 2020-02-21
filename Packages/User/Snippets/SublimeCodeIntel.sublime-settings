@@ -1,0 +1,11 @@
+{
+    "codeintel_enabled_languages":
+    [
+       "JavaScript", "SCSS", "HTML",
+       "Sass", "HTML5", "CSS",
+       "PHP"
+    ],
+    "codeintel_selected_catalogs": [
+    	"PHP"
+    ]
+}

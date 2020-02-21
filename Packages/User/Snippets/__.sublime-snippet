@@ -2,9 +2,7 @@
 	<content><![CDATA[
 public function __construct(${1:\$arg})
 {
-
 	${2://}
-
 }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

@@ -1,0 +1,9 @@
+{
+    "codeintel_selected_catalogs": ["PHP"],
+    "codeintel_enabled_languages": [
+       "JavaScript", "SCSS", "HTML", "HTML5", "CSS", "Twig", "Less", "Node.js", "PHP"
+    ],
+    "codeintel_word_completions": "buffer",
+    "codeintel_snippets": true,
+    "codeintel_max_recursive_dir_depth": 10,
+}

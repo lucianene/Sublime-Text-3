@@ -1,0 +1,32 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * Get ${1:$SELECTION}
+ *
+ * @return ${2}
+ */
+public function get${1/(.*)/\u$1/}()
+{
+    return \$this->${1:$SELECTION};
+}
+
+/**
+ * Set ${1:$SELECTION}
+ *
+ * @param $2 \$${1:$SELECTION}
+ * @return \$this
+ */
+public function set${1/(.*)/\u$1/}($2 \$$1)
+{
+    \$this->$1 = \$$1;
+
+    return \$this;
+}
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>gsd</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Create getter and setter methods with docs</description>
+</snippet>

@@ -1,0 +1,14 @@
+{
+  // The opacity level of the default icon state.
+  "opacity": 0.7,
+
+  // The opacity level of the hovered icon state.
+  "opacity_on_hover": 1.0,
+
+  // The opacity level of the selected icon state.
+  "opacity_on_select": 1.0,
+
+  // This is the default size of Sublime Text icons. However you can
+  // change it to better fit your custom theme.
+  "size": 7,
+}

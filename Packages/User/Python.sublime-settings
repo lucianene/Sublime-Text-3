@@ -1,0 +1,7 @@
+// These settings override both User and Default settings for the Python syntax
+{
+    "default_encoding": "Western (ISO 8859-1)",
+    "fallback_encoding": "Western (ISO 8859-1)",
+    // Set to true to insert spaces when tab is pressed
+    "translate_tabs_to_spaces": false,
+}

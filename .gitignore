@@ -1,0 +1,17 @@
+Backup
+Cache
+Index
+Installed Packages
+Lib
+Local
+Packages/*
+Packages/User/**/
+!Packages/User
+!Packages/User/Snippets
+!Packages/Predawn/predawn.tmTheme
+!Packages/Predawn/predawn.sublime-theme
+!Packages/Predawn/predawn-DEV.sublime-theme
+*.pickle
+*.cache
+*.log
+*.breakpoints

@@ -1,5 +1,7 @@
 {
-    "high_visibility_style": "solid",
+    // Ignore threshold
     "ignore_threshold": true,
+    "match_only_adjacent": true,
+    "high_visibility_style": "solid",
     "show_offscreen_bracket_popup": false
 }

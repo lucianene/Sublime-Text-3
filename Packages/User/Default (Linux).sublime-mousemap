@@ -6,16 +6,29 @@
 		"press_command": "drag_select",
 		"command": "goto_definition"
 	},
-	// unbind font size form scroll
+	// fast ctrl + mid wheel scroll
 	{
 		"button": "scroll_down",
 		"modifiers": ["ctrl"],
-		"command": "null"
+		"command": "scroll_lines",
+		"args": {
+			"amount": -10.0
+		}
 	},
 	{
 		"button": "scroll_up",
 		"modifiers": ["ctrl"],
-		"command": "null"
+		"command": "scroll_lines",
+		"args": {
+			"amount": 10.0
+		}
+	},
+	// ctrl + right click bookmark
+	{
+		"button": "button2",
+		"modifiers": ["ctrl"],
+		"press_command": "drag_select",
+		"command": "toggle_bookmark"
 	},
 	// column select
 	{

@@ -1,0 +1,12 @@
+{
+    "cmd": [
+        "vendor/bin/phpunit",
+        "-c",
+        "phpunit.xml",
+        "--filter",
+        "${file_base_name}"
+    ],
+    "file_regex": "^.*Test.php$",
+    "working_dir": "${project_base_name}",
+    "selector": "source.php"
+}
