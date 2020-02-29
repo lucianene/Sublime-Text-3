@@ -31,7 +31,10 @@
 		"*.woff",
 		"*.woff2",
 		"*.epk",
-		"*.eix"
+		"*.eix",
+		"*.xml",
+		"*.pem",
+		"*.crt"
 	],
 	"bold_folder_labels": true,
 	"caret_extra_bottom": 4,
@@ -68,7 +71,8 @@
 		"*.db",
 		"*.sublime-workspace",
 		"*.epk",
-		"*.eix"
+		"*.eix",
+		"*.dist"
 	],
 	"fold_buttons": true,
 	"folder_exclude_patterns":

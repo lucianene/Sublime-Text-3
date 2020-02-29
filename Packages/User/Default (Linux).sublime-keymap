@@ -63,10 +63,10 @@
 
 
  // reverse pageup with ctrl+pageup
- { "keys": ["pagedown"], "command": "next_view" },
- { "keys": ["pageup"], "command": "prev_view" },
- { "keys": ["ctrl+pageup"], "command": "move", "args": {"by": "pages", "forward": false} },
- { "keys": ["ctrl+pagedown"], "command": "move", "args": {"by": "pages", "forward": true} },
+ // { "keys": ["pagedown"], "command": "next_view" },
+ // { "keys": ["pageup"], "command": "prev_view" },
+ // { "keys": ["ctrl+pageup"], "command": "move", "args": {"by": "pages", "forward": false} },
+ // { "keys": ["ctrl+pagedown"], "command": "move", "args": {"by": "pages", "forward": true} },
 
   // { "keys": ["f4"], "command": "import_namespace" },
  // { "keys": ["f3"], "command": "implement" },
