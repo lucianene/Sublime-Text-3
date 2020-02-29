@@ -99,7 +99,7 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 12,
+	"font_size": 11,
 	"highlight_line": true,
 	"hot_exit": true,
 	"ignored_packages":
@@ -110,6 +110,7 @@
 		"Clojure",
 		"Color Scheme - Default",
 		"Color Scheme - Legacy",
+		"Compare Side-By-Side",
 		"D",
 		"PHPSnippets",
 		"SublimeLinter-cpplint",
