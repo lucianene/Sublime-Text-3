@@ -22,7 +22,7 @@
             "excludes": ["*.php", "*.vue"]
         },
         "php": {
-            "disable": false
+            "disable": true
         },
         "phpcs": {
             "disable": false,

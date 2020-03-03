@@ -61,6 +61,8 @@
     [ { "key": "selector", "operator": "equal", "operand": "source.js" } ]
   },
 
+ // cs fixer
+ { "keys": ["alt+f"], "command": "phpcs_fix_this_file", "args": {"tool": "Fixer"}},
 
  // reverse pageup with ctrl+pageup
  // { "keys": ["pagedown"], "command": "next_view" },

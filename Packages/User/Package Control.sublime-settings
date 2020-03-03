@@ -6,6 +6,7 @@
 	],
 	"in_process_packages":
 	[
+		"Compare Side-By-Side"
 	],
 	"installed_packages":
 	[
@@ -51,6 +52,7 @@
 		"PackageDev",
 		"PackageResourceViewer",
 		"PHP Companion",
+		"Phpcs",
 		"PHPSnippets",
 		"PHPUnit Completions",
 		"PlainTasks",

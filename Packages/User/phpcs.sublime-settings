@@ -1,0 +1,14 @@
+{
+  "show_debug": true,
+  "phpcs_php_path": "/usr/bin/php",
+  "phpcs_executable_path": "/usr/bin/phpcs",
+  "phpmd_executable_path": "/usr/bin/phpmd",
+  "php_cs_fixer_executable_path": "/usr/local/bin/php-cs-fixer",
+  "phpcbf_executable_path": "/usr/bin/phpcbf",
+  "php_cs_fixer_additional_args": {
+    "--rules": "@Symfony,phpdoc_add_missing_param_annotation",
+    // "--rules": "{\"@Symfony\": true, \"phpdoc_add_missing_param_annotation\": {\"only_untyped\": false}}",
+    "--allow-risky": "yes",
+  },
+}
+
