@@ -6,7 +6,6 @@
 	],
 	"in_process_packages":
 	[
-		"Compare Side-By-Side"
 	],
 	"installed_packages":
 	[
@@ -28,6 +27,7 @@
 		"DocBlockr",
 		"Dockerfile Syntax Highlighting",
 		"DotENV",
+		"EasyClangComplete",
 		"EditorConfig",
 		"Emmet",
 		"ExpandRegion",
@@ -37,14 +37,17 @@
 		"INI",
 		"IntelliDocs",
 		"JavaScriptNext - ES6 Syntax",
+		"JSX",
 		"Kconfig Syntax Highlight",
 		"Laravel 5 Snippets",
 		"Laravel Blade AutoComplete",
 		"Laravel Blade Highlighter",
+		"Laravel Docs",
 		"Laravel Helper Completions",
 		"LESS",
 		"nginx",
 		"NodeRequirer",
+		"Oasis Theme",
 		"Open Folder",
 		"OpenFilesLister",
 		"Origami",
@@ -65,7 +68,6 @@
 		"SublimeLinter-cpplint",
 		"SublimeLinter-html-tidy",
 		"SublimeLinter-jshint",
-		"SublimeLinter-php",
 		"SublimeLinter-phpcs",
 		"Syntax Highlighting for PostCSS",
 		"Themes Menu Switcher",

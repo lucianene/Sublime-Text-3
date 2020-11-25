@@ -19,7 +19,7 @@
  { "keys": ["}"], "command": "insert", "args": {"characters": "}"} },
 
  // insert tilda for js template literals
- { "keys": ["ctrl+`"], "command": "insert", "args": {"characters": "`"} },
+ // { "keys": ["ctrl+`"], "command": "insert", "args": {"characters": "`"} },
 
  // rewrite the console command (add shift)
  { "keys": ["ctrl+shift+`"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },

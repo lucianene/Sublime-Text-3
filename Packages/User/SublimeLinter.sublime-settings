@@ -1,8 +1,9 @@
 // SublimeLinter Settings - User
 {
     "debug": false,
-    "delay": 0.2,
+    "delay": 0.1,
     "gutter_theme": "Circle",
+    "kill_old_processes": true,
     "linters": {
         "htmltidy": {
             "disable": false,
@@ -17,20 +18,24 @@
                 "<(.*)> is not recognized!",
                 "trimming empty",
                 ".*proprietary attribute",
-                "inserting (?:implicit <body>|missing 'title' element)"
+                "inserting (?:implicit <body>|missing 'title' element)",
+                "Each class must be*"
             ],
             "excludes": ["*.php", "*.vue"]
         },
         "php": {
-            "disable": true
+            "disable": true,
         },
         "phpcs": {
-            "disable": false,
+            "disable": true,
             "args": [
                 "--standard=PSR2", "-n"
             ],
             "excludes": [],
-            "standard": ["PSR2"]
+            "standard": ["PSR2"],
+            "filter_errors": [
+                // "Each class must be*"
+            ]
         }
     },
     "paths": {

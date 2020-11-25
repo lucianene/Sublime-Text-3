@@ -6,7 +6,7 @@
 	"always_show_minimap_viewport": true,
 	"animation_enabled": false,
 	"auto_complete": true,
-	"auto_complete_delay": 0,
+	"auto_complete_delay": 50,
 	"binary_file_patterns":
 	[
 		"*.tbz2",
@@ -34,7 +34,8 @@
 		"*.eix",
 		"*.xml",
 		"*.pem",
-		"*.crt"
+		"*.crt",
+		"*.sql"
 	],
 	"bold_folder_labels": true,
 	"caret_extra_bottom": 4,
@@ -71,8 +72,7 @@
 		"*.db",
 		"*.sublime-workspace",
 		"*.epk",
-		"*.eix",
-		"*.dist"
+		"*.eix"
 	],
 	"fold_buttons": true,
 	"folder_exclude_patterns":
@@ -82,7 +82,6 @@
 		".svn",
 		".git",
 		".hg",
-		".ebextensions",
 		"CVS",
 		".sass-cache",
 		"storage/app",
@@ -92,14 +91,16 @@
 		"buckets",
 		"var/cache",
 		"bootstrap",
-		"node_modules"
+		"node_modules",
+		"/home/lucifer/Entrili/version_3/vendor/lightsaml/symfony-bridge/vendor"
 	],
 	"font_face": "Inconsolata",
 	"font_options":
 	[
+		"gray_antialias",
 		"subpixel_antialias"
 	],
-	"font_size": 11,
+	"font_size": 12,
 	"highlight_line": true,
 	"hot_exit": true,
 	"ignored_packages":
@@ -110,11 +111,10 @@
 		"Clojure",
 		"Color Scheme - Default",
 		"Color Scheme - Legacy",
-		"Compare Side-By-Side",
 		"D",
 		"PHPSnippets",
-		"SublimeLinter-cpplint",
 		"SublimeLinter-jshint",
+		"SublimeLinter-phpcs",
 		"Themes Menu Switcher",
 		"Vintage"
 	],
